@@ -1,0 +1,7 @@
+python -m venv myenv
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+pip install ....
+pip freeze > file_name.txt
+git init
+git add .
+git status
